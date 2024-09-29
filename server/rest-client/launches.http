@@ -1,0 +1,19 @@
+### REQUEST TO LAUNCH DATA
+
+POST http://localhost:5000/launches
+Content-Type: application/json
+
+{
+      "mission": "ZTM156",
+      "rocket": "ZTM Starship",
+      "target": "Kepler-62 f",
+      "launchDate": "July 1, 2028"
+}
+
+### REQUEST TO GET LAUNCH
+GET http://localhost:5000/launches
+
+
+### REQUEST TO DELETE LAUNCH
+DELETE  http://localhost:5000/launches/103
+

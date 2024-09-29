@@ -1,0 +1,3 @@
+### GET ALL PLANETS
+
+GET http://localhost:5000/planets
