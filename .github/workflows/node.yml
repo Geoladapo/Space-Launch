@@ -8,10 +8,10 @@ jobs:
   build:
     env:
       CI: true
-      MONGO_URI: mongodb://localhost/nasa-db
+      MONGO_URI: mongodb://localhost/Cluster0
     strategy:
       matrix:
-        node-version: [20.x, 22]
+        node-version: [20]
         mongodb-version: ['4.4']
     runs-on: ubuntu-latest
     steps:
